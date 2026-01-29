@@ -16,13 +16,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             if ($i % 15 == 0)
             {
                 echo $i . " Blueberry\n";
-            } elseif ($i % 3 == 0)
+            }
+            elseif ($i % 3 == 0)
             {
                 echo $i . " Blue\n";
-            } elseif ($i % 5 == 0)
+            }
+            elseif ($i % 5 == 0)
             {
                 echo $i . " Berry\n";
-            } else
+            }
+            else
             {
                 echo $i . "\n";
             }
