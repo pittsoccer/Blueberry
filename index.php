@@ -11,19 +11,19 @@
         {
             if ($i % 15 == 0)
             {
-                echo $i . " Blueberry\n";
+                echo $i . " Blueberry<br>";
             }
             elseif ($i % 3 == 0)
             {
-                echo $i . " Blue\n";
+                echo $i . " Blue<br>";
             }
             elseif ($i % 5 == 0)
             {
-                echo $i . " Berry\n";
+                echo $i . " Berry<br>";
             }
             else
             {
-                echo $i . "\n";
+                echo $i . "<br>";
             }
         }
         ?>
